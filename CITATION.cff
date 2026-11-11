@@ -4,15 +4,15 @@ title: "Compress the Prose, Not the Language: Linguistic Redundancy in Memorizat
 type: software
 authors:
   - given-names: Marco
-    family-names: "SURNAME"          # placeholder
-    orcid: "https://orcid.org/0000-0000-0000-0000"   # placeholder
+    family-names: "COGNOME"
+    orcid: "https://orcid.org/0009-0004-2917-4466"
     affiliation: "Independent researcher"
 date-released: "2026-11-11"
 version: "1.0.0"
 license: MIT
 doi: "10.5281/zenodo.XXXXXXX"        # placeholder
-repository-code: "https://github.com/USERNAME/lingcompress"   # placeholder
-url: "https://github.com/USERNAME/lingcompress"              # placeholder
+repository-code: "https://github.com/adapt-to-it/lingcompress"
+url: "https://github.com/adapt-to-it/lingcompress"
 keywords:
   - linguistic redundancy
   - compression
@@ -25,7 +25,8 @@ preferred-citation:
   title: "Compress the Prose, Not the Language: Linguistic Redundancy in Memorization and Reasoning of Small Transformers"
   authors:
     - given-names: Marco
-      family-names: "SURNAME"        # placeholder
+      family-names: "COGNOME"
+      orcid: "https://orcid.org/0009-0004-2917-4466"
   year: 2026
   month: 11
   doi: "10.5281/zenodo.XXXXXXX"      # placeholder

@@ -171,12 +171,13 @@ Per-problem outputs of every evaluation run are in `part2_reasoning/results/v*/o
 ```bibtex
 @misc{marco2026compress,
   title        = {Compress the Prose, Not the Language: Linguistic Redundancy in Memorization and Reasoning of Small Transformers},
-  author       = {Marco},
+  author       = {COGNOME, Marco},
+  note         = {ORCID: 0009-0004-2917-4466},
   year         = {2026},
   month        = nov,
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {https://github.com/USERNAME/lingcompress}
+  url          = {https://github.com/adapt-to-it/lingcompress}
 }
 ```
 
