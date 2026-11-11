@@ -1,0 +1,22 @@
+{
+  "title": "Compress the Prose, Not the Language: Linguistic Redundancy in Memorization and Reasoning of Small Transformers",
+  "upload_type": "software",
+  "description": "<p>Code, generated data, per-problem outputs, reports and paper for <em>Compress the Prose, Not the Language</em>.</p><p>Natural language carries redundancy (function words, agreement, restatement) that looks superfluous to a model. We ask whether removing it lets transformers store the same facts with fewer parameters, train faster, or reason with fewer tokens. In a controlled memorization setting (20,000 synthetic biographies, models trained from scratch at 0.15–8M parameters), compression does not change the capacity needed at saturation, which is set by the facts (about 1–2 bits per parameter). It shortens training to 0.55–0.86× the time, and lowers parameters mid-curve only when the compressed form is regular and keeps the words that distinguish relations. In reasoning (GSM8K, Qwen3 0.6B/1.7B/4B with LoRA), designed formats (telegraphic stripping, a canonical equation language) lose 2–4 accuracy points at every scale. Concise natural prose instead matches full chain-of-thought accuracy with 25–26% fewer tokens and up to 27% lower latency. Filler can be removed; numbers and relational words carry the information.</p><p>Licensing: generated data, results and the paper are CC BY 4.0 (see LICENSE-DATA.md); the code is MIT (see LICENSE). The GSM8K rewrites derive from GSM8K (MIT) and were generated with Qwen3-4B-Instruct-2507 (Apache 2.0).</p>",
+  "creators": [
+    {
+      "name": "Abbattista, Marco",
+      "affiliation": "Independent researcher",
+      "orcid": "0009-0004-2917-4466"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "linguistic redundancy",
+    "compression",
+    "memorization",
+    "chain-of-thought",
+    "GSM8K",
+    "LoRA"
+  ],
+  "language": "eng"
+}
