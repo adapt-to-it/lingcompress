@@ -1,0 +1,121 @@
+model,cond,label,id,category,ambiguity,note
+small,2,A+calc,test-961,quantita_confusa,false,Ha sommato 140+15 invece di 70+15 per la terza persona.
+small,2,A+calc,test-1032,piano_sbagliato,false,Ha diviso per 3 invece di moltiplicare per 3 le taglie di fagioli.
+small,2,A+calc,test-89,quantita_confusa,false,Ha usato 1/4 invece di 3/4 come sacchetti per ospite.
+small,2,A+calc,test-652,passaggio_mancante,false,Non ha sottratto l'ora gratuita: ha pagato 4 ore invece di 3.
+small,2,A+calc,test-1226,piano_sbagliato,false,Ha considerato 5 dita invece di 10.
+small,2,A+calc,test-1179,passaggio_mancante,false,Non ha sommato i denti cappati (11) ai 4 trapanati; percentuale poi sbagliata.
+small,2,A+calc,test-997,piano_sbagliato,false,Ha sottratto 200 invece di sommarlo al totale prima del triplo.
+small,2,A+calc,test-756,piano_sbagliato,false,Equazione V+2V=33 non impostata: risposta uguale al totale.
+small,2,A+calc,test-1164,passaggio_mancante,false,Ha sommato le uova trovate invece di sottrarle dalle 36 nascoste.
+small,2,A+calc,test-900,quantita_confusa,false,Ha usato 10 pagine di ieri di Denise invece di 13 di Daniel.
+small,2,A+calc,test-552,piano_sbagliato,false,Commissione applicata male: 30% su tutto e 10% sulla soglia.
+small,2,A+calc,test-1215,passaggio_mancante,false,Ha saltato l'efficienza di impacchettamento dell'80%.
+small,2,A+calc,test-339,quantita_confusa,false,Ha letto 'il doppio di polli' come meta' e meta'.
+small,2,A+calc,test-707,piano_sbagliato,false,Ha confuso la percentuale non industriale con 80%*60.
+small,2,A+calc,test-340,piano_sbagliato,false,"Ha sottratto 3, 2 e 1 in sequenza invece di fermarsi a 7-3=4."
+small,2,A+calc,test-219,aritmetico,false,Ha sommato 34 (meta' di Naomi) invece di 68 per Naomi.
+small,2,A+calc,test-628,piano_sbagliato,false,Ha sottratto 2 da 40 e confuso piedi e pollici.
+small,2,A+calc,test-1287,quantita_confusa,false,"Ha scambiato fratello minore e maggiore, contando 12 due volte."
+small,2,A+calc,test-357,piano_sbagliato,false,"Ha ignorato che ogni persona costa 30 dollari (gettoni, golf, go-kart) e che Morgan e' inclusa."
+small,2,A+calc,test-779,quantita_confusa,false,Ha usato 6 ore totali come ore di guida senza sottrarre la camminata.
+small,5,C5+gram+calc,test-203,quantita_confusa,true,Nomi sandwiches_per_week/omelet_slices confusi; ha raddoppiato due volte le fette.
+small,5,C5+gram+calc,test-155,quantita_confusa,true,"Nomi _feet con valori in pollici, sommati ai piedi dei baguette."
+small,5,C5+gram+calc,test-724,quantita_confusa,true,pizzas_per_person=12 (sono fette) e percentuali sul totale sbagliato.
+small,5,C5+gram+calc,test-1044,quantita_confusa,true,Ha sommato 4 piedi + 3 pollici senza convertire.
+small,5,C5+gram+calc,test-1235,piano_sbagliato,false,Ha moltiplicato velocita' per 3 giorni invece di 72 ore.
+small,5,C5+gram+calc,test-209,piano_sbagliato,false,Ha letto male la relazione prezzo piatti/tazze.
+small,5,C5+gram+calc,test-789,quantita_confusa,false,Ha calcolato 45-12 invece di 32-12 e arrotondato 6.6 a mano.
+small,5,C5+gram+calc,test-969,passaggio_mancante,false,Ha contato 3 telefoni invece di 4.
+small,5,C5+gram+calc,test-690,passaggio_mancante,false,Per Rong ha usato 10 (anni) invece di 120 mesi.
+small,5,C5+gram+calc,test-451,quantita_confusa,true,Nome 'after_increase' dato al prezzo prima dell'aumento; ha sottratto 20 invece di sommare.
+small,5,C5+gram+calc,test-1216,formato_rotto,true,Loop di GIVEN con nomi sempre piu' lunghi per aggirare il divieto di ridefinizione.
+small,5,C5+gram+calc,test-1053,passaggio_mancante,false,Ha usato 48 invece di dimezzarlo a 24 per le scarpe.
+small,5,C5+gram+calc,test-988,passaggio_mancante,true,Ha risposto con 6000 dollari nominati shoes_per_year senza dividere per 1000.
+small,5,C5+gram+calc,test-1147,quantita_confusa,true,Nomi *_per_day contengono giorni; giorni finali calcolati come somma delle scene.
+small,5,C5+gram+calc,test-575,passaggio_mancante,false,Ha saltato la divisione per 8 pezzi per ottenere i muffin.
+small,5,C5+gram+calc,test-128,quantita_confusa,false,Ha preso costo arancia=5 invece di anguria meno 5.
+small,5,C5+gram+calc,test-1204,aritmetico,false,Dopo aver ottenuto 168 ha ricombinato male 168-280+252.
+small,5,C5+gram+calc,test-21,piano_sbagliato,false,Ha scambiato il verso della sottrazione di eta'.
+small,5,C5+gram+calc,test-190,passaggio_mancante,false,Non ha convertito ore in minuti.
+small,5,C5+gram+calc,test-886,piano_sbagliato,false,Ha dimezzato i microfoni prima della percentuale.
+small,8,C6+gram+calc,test-4,quantita_confusa,true,feed_per_chicken_cups_n = 3*40: valore che non e' per pollo; poi 120*20.
+small,8,C6+gram+calc,test-1072,quantita_confusa,false,"Ha usato i 60 di una persona per entrambe, sottraendo le spese da 60."
+small,8,C6+gram+calc,test-724,quantita_confusa,false,Calcolo fette su 12 invece del totale; risultati frazionari e negativi.
+small,8,C6+gram+calc,test-524,piano_sbagliato,false,Ha sommato i tulipani e diviso per 6 ignorando le 8 per fila dei blu.
+small,8,C6+gram+calc,test-707,piano_sbagliato,false,Si e' fermato a 100-40 senza usare l'80%.
+small,8,C6+gram+calc,test-135,passaggio_mancante,false,Ha ignorato i 5 videogiochi persi usando 20 invece di 15.
+small,8,C6+gram+calc,test-409,piano_sbagliato,false,Calcolo 15*365 e settimane senza senso.
+small,8,C6+gram+calc,test-1221,piano_sbagliato,false,Ha raddoppiato i 80 invece di dividere per 16.
+small,8,C6+gram+calc,test-472,piano_sbagliato,false,Ha raddoppiato 5 invece di sottrarre 2 e raddoppiare.
+small,8,C6+gram+calc,test-510,piano_sbagliato,false,Giorni al compleanno sbagliati (365-31).
+small,8,C6+gram+calc,test-314,piano_sbagliato,false,Ha diviso 105 per 2 senza impostare l'equazione (SOLVE non usato).
+small,8,C6+gram+calc,test-1173,piano_sbagliato,false,Ha aumentato anche il prezzo del 20% e non ha calcolato i cicli per 1 dollaro.
+small,8,C6+gram+calc,test-979,passaggio_mancante,false,Calcolata differenza di 5 anni ma non sottratta alle eta' future.
+small,8,C6+gram+calc,test-187,piano_sbagliato,false,Dopo aver ottenuto 106 ha sottratto 100 rispondendo col solo interesse.
+small,8,C6+gram+calc,test-164,quantita_confusa,false,Ha invertito la differenza: 90-105 invece di 105-90.
+small,8,C6+gram+calc,test-689,nome_unita_sbagliata,false,Piano errato (scalato 5+4 a 10) e totale in dollari chiamato total_cost_10_n.
+small,8,C6+gram+calc,test-1094,piano_sbagliato,false,Piano probabilistico errato: bibite agitate e non agitate confuse.
+small,8,C6+gram+calc,test-1061,piano_sbagliato,false,Ha sottratto 18 invece di impostare l'equazione (SOLVE non usato).
+small,8,C6+gram+calc,test-236,piano_sbagliato,false,Ha moltiplicato le penne per 5 invece di dividere in blocchi.
+small,8,C6+gram+calc,test-641,quantita_confusa,true,Bonus di mezzo mese sommato al mensile e moltiplicato per 12: _usd nasconde mensile vs una tantum.
+large,2,A+calc,test-1050,passaggio_mancante,false,Ha ignorato i 4 giorni: sottratto una sola volta 325.
+large,2,A+calc,test-576,passaggio_mancante,false,Ha dimenticato di sommare 3024 (tappeto+imbottitura) al totale.
+large,2,A+calc,test-247,quantita_confusa,false,Ha diviso per 5 persone sommando 3+2.
+large,2,A+calc,test-1045,piano_sbagliato,false,Ha sottratto 80 da 1920 senza risolvere il sistema.
+large,2,A+calc,test-652,altro,false,Ambiguo: 'ogni ora dopo' puo' essere letto come raddoppio cumulativo.
+large,2,A+calc,test-1030,piano_sbagliato,false,Ha sottratto le percentuali 100-50-40-20.
+large,2,A+calc,test-422,piano_sbagliato,false,Ha considerato solo 2 mesi a tariffa normale e 2 a quella alta.
+large,2,A+calc,test-1152,piano_sbagliato,false,Ha sommato le probabilita' invece di moltiplicarle.
+large,2,A+calc,test-1112,quantita_confusa,false,Ha preso un terzo di 3 kg invece di 12 kg per Paul.
+large,2,A+calc,test-570,piano_sbagliato,false,Ha diviso 70 per 5 invece di ripartirlo su 7 giorni.
+large,2,A+calc,test-871,quantita_confusa,false,Ha confuso rimanenti con mangiate al terzo giorno.
+large,2,A+calc,test-187,altro,false,Interesse composto: lettura plausibile ma diversa dal riferimento semplice.
+large,2,A+calc,test-1133,piano_sbagliato,false,Ha dimezzato 40 anziche' calcolare la velocita' doppia sul miglio.
+large,2,A+calc,test-754,piano_sbagliato,false,Ha scambiato 90% di piccoli adesivi con bottoni grandi senza conversione.
+large,2,A+calc,test-611,quantita_confusa,false,"I 100000 erano per 5 mesi, non per mese."
+large,2,A+calc,test-1089,altro,false,Terzo piano ambiguo: 2 piani sopra il suolo vs 3 del riferimento.
+large,2,A+calc,test-494,piano_sbagliato,false,Ha mediato le altezze invece di sommare 3 strati da 64 + 60.
+large,2,A+calc,test-574,quantita_confusa,false,Ha calcolato 3*10 dollari di pane invece di 3 per 10 panini.
+large,2,A+calc,test-403,altro,false,Riferimento sbagliato: 900W*5h*30gg = 135 kWh; il modello e' corretto.
+large,2,A+calc,test-405,quantita_confusa,false,Ha contato 10 libbre per carne e per formaggio invece di 5 ciascuno.
+large,5,C5+gram+calc,test-324,piano_sbagliato,false,Ha sommato 5 persone ai 14 record.
+large,5,C5+gram+calc,test-58,quantita_confusa,true,Ha trattato il 25% come 25 dollari (percentuale senza tipo) e l'ha sottratto.
+large,5,C5+gram+calc,test-1032,piano_sbagliato,false,Ha diviso per 3 invece di moltiplicare.
+large,5,C5+gram+calc,test-1086,formato_rotto,false,Numero con zeri infiniti: output non leggibile.
+large,5,C5+gram+calc,test-436,passaggio_mancante,false,Non ha calcolato il peso dei pezzi (20/8).
+large,5,C5+gram+calc,test-806,passaggio_mancante,false,Ha usato 400 studenti invece dei 320 promossi di quinta.
+large,5,C5+gram+calc,test-113,piano_sbagliato,false,Ha sommato 5 invece di sottrarre.
+large,5,C5+gram+calc,test-151,quantita_confusa,true,Ha diviso per 100 un valore gia' in dollari (centesimi riconvertiti due volte).
+large,5,C5+gram+calc,test-1131,piano_sbagliato,false,Ha ignorato l'80% e moltiplicato per 4 senza motivo.
+large,5,C5+gram+calc,test-1249,piano_sbagliato,false,"Conteggio persone e candele sbagliato (2 per persona, nessun x2 per stanza)."
+large,5,C5+gram+calc,test-210,quantita_confusa,true,Ha diviso i 40 dollari per 5 (babysitting) invece di 4 per falciatura.
+large,5,C5+gram+calc,test-255,altro,false,Domanda incoerente (dieci vs venti stalle); il modello ha seguito 'venti'.
+large,5,C5+gram+calc,test-66,quantita_confusa,true,teams_per_school=10 (sono giocatori) e un solo allenatore per scuola.
+large,5,C5+gram+calc,test-124,piano_sbagliato,false,Ha sottratto 20 da 60 invece di sottrarre da 30.
+large,5,C5+gram+calc,test-1168,piano_sbagliato,false,Senza equazione (SOLVE assente): lunghezze incoerenti.
+large,5,C5+gram+calc,test-926,piano_sbagliato,false,Ha sommato i prezzi dei film in un solo costo e diviso per 33.
+large,5,C5+gram+calc,test-1137,piano_sbagliato,false,Ha ricavato 36 dalle once senza media pesata.
+large,5,C5+gram+calc,test-652,altro,false,Stessa ambiguita' di 652; il modello compone il raddoppio.
+large,5,C5+gram+calc,test-1174,quantita_confusa,true,Ha diviso 60 banconote per 5 invece di 60*20/5 (taglia banconota non nel nome).
+large,5,C5+gram+calc,test-882,quantita_confusa,false,Prezzo del pollo sbagliato (2 invece di 4) e fragole dimezzate senza motivo.
+large,8,C6+gram+calc,test-439,piano_sbagliato,false,Ha sottratto 5 e poi 4 invece di sommare differenza e anticipo.
+large,8,C6+gram+calc,test-852,quantita_confusa,false,Ha letto '2 dollari di sconto' come 2 ceste in meno.
+large,8,C6+gram+calc,test-1290,passaggio_mancante,false,Non ha convertito 3 dozzine in 36.
+large,8,C6+gram+calc,test-389,formato_rotto,false,"Loop di GIVEN con nomi crescenti, output troncato."
+large,8,C6+gram+calc,test-350,aritmetico,false,"Ha moltiplicato per 2 valori costanti (0.5*2, 2*2) per aggirare la grammatica."
+large,8,C6+gram+calc,test-1077,piano_sbagliato,false,Temporizzazione treni sbagliata (stay 30/4 invece di 20/4).
+large,8,C6+gram+calc,test-954,piano_sbagliato,false,Ha sommato 6 invece di sottrarre le posate regalate e non ha sommato le tazze.
+large,8,C6+gram+calc,test-1314,piano_sbagliato,false,Eta' di John calcolata come 19+32 invece di 18+19.
+large,8,C6+gram+calc,test-672,piano_sbagliato,false,Ha sommato i giorni buoni invece di contare quelli dei giorni rimanenti.
+large,8,C6+gram+calc,test-943,quantita_confusa,false,Ha calcolato la perdita col prezzo pieno (15) invece dello scontato (9).
+large,8,C6+gram+calc,test-438,passaggio_mancante,true,Ha saltato il secondo brodo e troncato 1.67 a 1; nome cost_per_pound_usd per un totale.
+large,8,C6+gram+calc,test-731,quantita_confusa,true,Ha diviso per i 8 delle bustine invece che per i 24 della scatola.
+large,8,C6+gram+calc,test-796,piano_sbagliato,false,Ha calcolato solo il terzo mese senza cumulare.
+large,8,C6+gram+calc,test-1056,piano_sbagliato,false,Ha moltiplicato 4*2 e diviso 52/7 senza senso.
+large,8,C6+gram+calc,test-1033,piano_sbagliato,false,Precedenza errata: 15 - 54/18; spese e paga mischiate.
+large,8,C6+gram+calc,test-1105,piano_sbagliato,false,Ha moltiplicato per 12 paghe e diviso male le spese.
+large,8,C6+gram+calc,test-1259,nome_unita_sbagliata,true,days_in_june_n = 30*24: ore nominate come giorni (_n invece di _days).
+large,8,C6+gram+calc,test-574,piano_sbagliato,false,Piano confuso con profitto per panino e nome '_with_oz'.
+large,8,C6+gram+calc,test-119,quantita_confusa,true,Ha usato l'aumento di Adrien anche per Lylah; nome troncato con suffisso _l (litri).
+large,8,C6+gram+calc,test-526,passaggio_mancante,false,Ha risposto con la bolletta nuova senza calcolare la differenza.

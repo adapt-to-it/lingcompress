@@ -1,0 +1,5 @@
+format,name,valid_generated,n_common,tok_mean,tok_median
+A,pieno,7440,6681,95.36012572968119,88
+B,telegrafico,derivato,6681,83.16404729830863,77
+C,canonico,6689,6681,70.93354288280197,66
+D,solo risposta,derivato,6681,2.31597066307439,2

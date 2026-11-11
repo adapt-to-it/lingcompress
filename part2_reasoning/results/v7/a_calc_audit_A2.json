@@ -1,0 +1,22 @@
+{
+ "equals": 733,
+ "fired": 709,
+ "agree": 708,
+ "disagree": 1,
+ "not_fired_examples": [
+  "Truck stamps: 11 + 9 = 20.\nRose stamps: 20 − 13 = 7.\nTotal stamps: 11 + 20 + 7",
+  "Jamie’s last name: Grey = 4 letters.\nBobbie’s last nam",
+  "4 people * 4 = 16 pieces.\nBill and Dale: 2 ",
+  "Ice cream: 10 × 4 = 40.\nYoghurt: 4 × 1 = 4.\nMore: 40 − 4 = 36.\nThe answer is 36.",
+  "8 games x 2 hours = 16 hours per daughter playin",
+  "laying.\n16 x 2 = 32 hours watching games.\n8 games x 4 hours = 32 hours per daughter practi",
+  "Lose: 3 * 4 = 12.\nWeight: 97 – 12 = 85.\nThe answer is 85.",
+  "3 pies * 10 slices = 30 slices.\n24 classmates + 1",
+  " 10 slices = 30 slices.\n24 classmates + 1 teacher + 1 Manny = 26 people.\n30 - 26 = 4.\nThe ",
+  "10 floors * 10 rooms = 100 rooms.\n100 - 10 = 90.\nTh"
+ ],
+ "disagree_examples": [
+  "Half the people: 16 / 2 = 8.\n8 eat 1 1/2: 8 * 1 1/2 = 12.\n8 eat 1/2: 8 * 1/2 = 4.\n"
+ ],
+ "fired_rate": 0.9672578444747613
+}

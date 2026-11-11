@@ -1,0 +1,40 @@
+{
+ "train_ids": 6381,
+ "generated": 6381,
+ "valid": 5065,
+ "reasons": {
+  "format": 1281,
+  "steps": 23,
+  "answer": 7,
+  "arith": 5
+ },
+ "tok_C6": 74.40967423494571,
+ "tok_C5_same": 69.2304047384008,
+ "tok_A_same": 92.4837117472853,
+ "note_rate": 0.0,
+ "notes_per_sol": 0,
+ "solve_rate": 0.004738400789733465,
+ "units": {
+  "n": 10969,
+  "usd": 5795,
+  "min": 758,
+  "h": 518,
+  "ft": 277,
+  "lb": 258,
+  "in": 186,
+  "pct": 184,
+  "oz": 170,
+  "kg": 162,
+  "m": 143,
+  "s": 101,
+  "gal": 84,
+  "mi": 68,
+  "ratio": 65,
+  "days": 65,
+  "km": 64,
+  "l": 57,
+  "years": 43,
+  "months": 30,
+  "weeks": 5
+ }
+}

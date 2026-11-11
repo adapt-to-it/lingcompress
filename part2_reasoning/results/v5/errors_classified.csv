@@ -1,0 +1,161 @@
+model,format,id,category,ambiguity,note
+small,A,test-958,quantita_confusa,false,Applica il 20% a 48 invece di ricavare il valore reale (48 = 120% del reale).
+small,A,test-1021,quantita_confusa,false,Usa 40% invece di 75% per le facili e 60*30 invece di 12 domande medie/difficili per gruppo.
+small,A,test-97,passaggio_mancante,false,Ignora che il volume si dimezza (servivano 64 oz) e inventa 32/10=3.2.
+small,A,test-651,quantita_confusa,false,Il secondo mese usa 3/4 dei soli cappelli verdi invece del totale del primo mese.
+small,A,test-1218,piano_sbagliato,false,Conta 3 classi e 45 minuti per studente invece di 4 classi e gruppi da 8.
+small,A,test-1173,passaggio_mancante,false,Si ferma al numero di pod (120) senza calcolare i cicli per 1 dollaro.
+small,A,test-990,quantita_confusa,false,Dopo aver ottenuto correttamente 14 somma 2 gradi spuri scambiando tasso orario con scarto iniziale.
+small,A,test-754,quantita_confusa,false,Confonde adesivi e bottoni: non applica 3 adesivi piccoli per bottone grande e somma unita diverse.
+small,A,test-1156,passaggio_mancante,false,Considera solo i 2 dispositivi del lunedi e ignora i 4 del martedi.
+small,A,test-886,quantita_confusa,false,Applica il 20% a 10 invece che a 50 microfoni (base sbagliata).
+small,A,test-564,quantita_confusa,false,Divide 105 minuti per 1.5 senza moltiplicare per 2 pagine e non considera 7 notti coerenti con le pagine.
+small,A,test-1206,quantita_confusa,false,Sottrae dal valore della casa invece di usare il prestito: 100000-60000.
+small,A,test-341,quantita_confusa,false,"Sbaglia le relazioni tra pesi (rospo 60, scambia il serpente) e omette il serpente."
+small,A,test-707,quantita_confusa,false,Scambia 40% e 80%: usa il 60% invece di 20% della quota non industriale.
+small,A,test-342,passaggio_mancante,false,Omette le 24 tutine iniziali e si ferma prima di aggiungere correttamente tutto.
+small,A,test-226,quantita_confusa,false,Somma i tipi sbagliati: aggiunge 14 erba ai water e non aggiorna il totale.
+small,A,test-628,piano_sbagliato,false,"Confusione tra pollici, piedi e anni; il ragionamento e incoerente."
+small,A,test-1265,quantita_confusa,false,Confonde tazze e limoni (6 limoni per tazza) e tratta il galloni extra come doppi invece che 2 tazze.
+small,A,test-359,passaggio_mancante,false,Salta il passaggio del resto dimezzato e usa 0.5 invece di 1.5 per il prezzo.
+small,A,test-778,aritmetico,false,"Somma sbagliata: 12+8+18 = 38, non 40."
+small,B,test-212,piano_sbagliato,false,Calcola area e poi usa 2*1.5 invece del perimetro 15 miglia.
+small,B,test-157,piano_sbagliato,false,Ignora la lunghezza del campo (100 yard) e confronta numeri di corse invece di distanze.
+small,B,test-779,quantita_confusa,false,"Usa 6 ore a 50 mph per tutto e 5 mph come velocita a piedi, confondendo tempi e velocita."
+small,B,test-1067,passaggio_mancante,false,Calcolo corretto in centesimi ma manca la conversione finale in dollari (245).
+small,B,test-1276,piano_sbagliato,false,Calcola l'area invece del perimetro della recinzione.
+small,B,test-218,quantita_confusa,true,Mescola eta attuale e fra tre anni (Adrian 3*24 invece di 3*21+3); la riga senza 'in' non distingue i due momenti.
+small,B,test-823,altro,false,La risposta del modello (18) e corretta: la soluzione di riferimento somma 10+4 invece di 14+4.
+small,B,test-1000,quantita_confusa,false,Usa 10 appuntamenti come inpatient (20*10) e dimentica 9 pazienti e gli appuntamenti da 30 minuti.
+small,B,test-732,aritmetico,false,"8 + 2*15 = 38, non 40."
+small,B,test-459,quantita_confusa,false,Somma 2250 (capacita del camion) al peso totale invece del peso dello zucchero (2).
+small,B,test-1251,quantita_confusa,false,Tratta il terzo lato come il doppio del secondo e aggiunge anche un termine 10 in piu.
+small,B,test-1077,piano_sbagliato,false,Calcola male gli orari relativi dei treni sottraendo tempi senza sommare le soste.
+small,B,test-1016,quantita_confusa,false,Applica il 5% al prezzo corrente (composto) invece che al prezzo originale.
+small,B,test-1177,aritmetico,false,Sottrae 7 da 12 invece che da 24 studenti totali.
+small,B,test-590,piano_sbagliato,false,Applica 'due amici' ai 18 invitati invece che ai 100 e dimentica i 100 invitati.
+small,B,test-132,quantita_confusa,false,Moltiplica i biglietti delle montagne russe per 2 invece di contare le corse del luge.
+small,B,test-1245,piano_sbagliato,false,Imposta male l'equazione (116/5-4) invece di risolvere s+5s-4=116.
+small,B,test-25,passaggio_mancante,false,Omette il costo del pasto di pollo ($12) dal totale.
+small,B,test-203,quantita_confusa,false,Usa 2 fette per omelette invece di 3 e scambia fette con numero di omelette.
+small,B,test-935,passaggio_mancante,false,Non moltiplica i widget per $6 ma chiama dollari le quantita di widget.
+small,C,test-3,passaggio_mancante,false,Calcola 3*60 e ignora le 3 volte a settimana (servivano 9 sprint).
+small,C,test-1065,passaggio_mancante,false,Somma solo 100+80 dimenticando che i primi tre test valgono 100 ciascuno.
+small,C,test-709,piano_sbagliato,false,Somma tempi per quarto invece di sommare le portate; anche la portata vaniglia (25) e sbagliata.
+small,C,test-523,quantita_confusa,false,Sottrae le 6 pagnotte restituite invece di aggiungerle.
+small,C,test-690,quantita_confusa,false,"Per Rong usa 20*10 (mensile per anni) senza passare ai mesi, mescolando mese e anno."
+small,C,test-137,quantita_confusa,true,"La variabile 'tip' contiene gia il totale (5+24) e poi si somma di nuovo 5: nome fuorviante, mancia contata due volte."
+small,C,test-403,piano_sbagliato,false,Calcola 216-7.2 invece del risparmio 0.9*5*30 delle ore ridotte.
+small,C,test-1227,altro,false,La domanda chiede 'quanti magazine' (5) ma il riferimento conta le uscite (66): domanda/riferimento ambigui.
+small,C,test-473,quantita_confusa,true,Nome 'remoras_length' senza unita: gia in pollici (12) viene riconvertito x12 e confuso col piede.
+small,C,test-510,formato_rotto,false,Ripete all'infinito le righe FACT senza arrivare a una soluzione.
+small,C,test-301,piano_sbagliato,false,Fraintende il problema: moltiplica per 2 invece di 32/4 fogli.
+small,C,test-1176,piano_sbagliato,false,Divide 2.75 per 0.2 invece di simulare l'uso del 20% giorno per giorno; nome chalk_recycled fuorviante.
+small,C,test-974,aritmetico,false,"18+13+8 = 39, non 40."
+small,C,test-186,piano_sbagliato,true,Moltiplica quantita non correlate e riusa il nome straw_per_rat per due valori diversi.
+small,C,test-167,piano_sbagliato,false,"Trasforma 'somma delle eta tra 2 anni = 28' in differenza di eta, senza equazione."
+small,C,test-680,quantita_confusa,false,Non conta Jack (8 invece di 9) e somma 700 al peso invece di confrontare con il limite.
+small,C,test-1093,passaggio_mancante,false,Non raddoppia le pareti (nord/sud ed est/ovest sono due per tipo).
+small,C,test-1058,quantita_confusa,false,Usa 100 anche per i 50 dell'anno scorso nel totale.
+small,C,test-226,quantita_confusa,false,Aggiunge i 14 acquistati ai water invece che ai grass.
+small,C,test-635,piano_sbagliato,false,Costo per classe e totale confusi: usa 60 come costo per lezione e ragiona su 600.
+small,D,test-706,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-307,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-812,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-494,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-696,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-1079,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-228,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-933,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-773,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-587,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-703,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-448,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-460,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-454,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-80,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-629,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-1162,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-171,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-224,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+small,D,test-321,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,A,test-303,quantita_confusa,false,Conta i 50 invenduti come venduti e sottrae di nuovo le 45 di quest'anno.
+large,A,test-60,passaggio_mancante,false,Dimentica di sottrarre l'arancia marcia (1).
+large,A,test-153,piano_sbagliato,false,Procede in avanti invece di risalire dai 5 rimasti; usa 10 come resto senza giustificazione.
+large,A,test-1030,piano_sbagliato,false,Sottrae le percentuali invece di moltiplicare le probabilita complementari.
+large,A,test-1298,aritmetico,false,"Somma finale errata: 8+9.5+6+7.5 = 31, non 29."
+large,A,test-763,quantita_confusa,false,Usa 250 (totale) come casa seconda invece di impostare le proporzioni.
+large,A,test-999,piano_sbagliato,false,Conta 6 fette totali invece di ripartire in parti proporzionali (2+2+... = 8 parti).
+large,A,test-534,quantita_confusa,false,Usa 20 bambini invece di 10 maschi/femmine e 4x per ragazza invece di 'somma piu 4 volte'.
+large,A,test-997,piano_sbagliato,false,Calcola il contributo senza includere i 200 e poi sottrae inutilmente la somma.
+large,A,test-465,quantita_confusa,false,Aggiunge le 50 carte tenute invece di sottrarle.
+large,A,test-422,piano_sbagliato,false,Usa 2 mesi invece di 8 a tariffa normale e 2 invece di 10 a tariffa alta.
+large,A,test-1287,passaggio_mancante,false,Omette il fratello di 12 anni dalla somma totale.
+large,A,test-1118,quantita_confusa,false,Scambia il totale delle femmine con la differenza richiesta e ignora gli acquisti separati.
+large,A,test-815,piano_sbagliato,false,Ignora fragrance e sugar e imposta rapporti 2:1 sbagliati.
+large,A,test-1094,passaggio_mancante,false,Non toglie la lattina presa da Ellen e i tre soda del fratello dal totale: usa 2/12.
+large,A,test-532,quantita_confusa,false,Interpreta male 'compira 27 fra 5 anni': usa 32 come eta fra 8 anni invece di 30.
+large,A,test-882,quantita_confusa,false,Prezzo del pollo posto uguale a quello del bacon (2) e il bacon e dimenticato.
+large,A,test-953,aritmetico,false,"Da 22:00 alle 6:00 sono 8 ore, non 10."
+large,A,test-1239,passaggio_mancante,false,Non divide per i 5 giorni: confronta il totale delle 80 aule con un solo giorno.
+large,A,test-1203,quantita_confusa,false,"Altezza della casa data come 7 volte l'altezza di Mattison, non 7 volte il primo piano."
+large,B,test-1199,passaggio_mancante,false,Divide per 3 invitati dimenticando Fred (4 persone).
+large,B,test-626,piano_sbagliato,false,Conversione di unita errata: moltiplica per 1000 invece di 3600 s/ora e dividere per 1000.
+large,B,test-159,quantita_confusa,true,Legge 'sbucano da sotto' come diminuzione (11-6): senza 'of'/'from' il verso della variazione si perde.
+large,B,test-584,quantita_confusa,false,Divide il costo totale per 2 scatole invece che per le 90 coppie di lenti.
+large,B,test-1062,passaggio_mancante,false,Dimentica il costo dei 30 antidolorifici ($120).
+large,B,test-214,piano_sbagliato,false,Ragiona sulla differenza costante invece di impostare l'equazione con le perdite.
+large,B,test-883,quantita_confusa,false,"Dimezza il 65 totale e poi sottrae l'encore, invece di togliere prima l'encore."
+large,B,test-1029,quantita_confusa,false,Somma 8 blu invece dei 7 verdi nel totale e usa 7+12=19 come etichetta confusa.
+large,B,test-1084,piano_sbagliato,false,Somma 60+100 senza impostare x+(x+60)=100.
+large,B,test-592,passaggio_mancante,false,Confronta eBay con 16 (solo prezzo Amazon) dimenticando la spedizione Amazon di $4.
+large,B,test-364,quantita_confusa,false,Sottrae le 5 femmine assenti dai maschi invece dei 4 maschi assenti.
+large,B,test-433,aritmetico,false,Usa 128 pinte per gallone invece di 8.
+large,B,test-24,quantita_confusa,true,Tratta 19.50 come il 25% del prezzo originale (sconto) invece del 75%: riga senza 'with/from' ambigua.
+large,B,test-1267,quantita_confusa,false,Assegna 2 zampe a tutti gli animali ignorando i 15 a 4 zampe.
+large,B,test-489,aritmetico,false,"Copia 21 per tutti e tre i paesi invece dei valori -48, 21 e -3."
+large,B,test-1216,passaggio_mancante,false,Non include i 20 passeggeri iniziali nel conteggio.
+large,B,test-405,quantita_confusa,true,Fonde carne e formaggio in 'pounds needed' (10) e li moltiplica per entrambi i prezzi: perso 'of meat'/'of cheese'.
+large,B,test-662,quantita_confusa,false,Usa 2 per le patatine (prezzo unitario) invece del totale 4 per 2 sacchetti.
+large,B,test-330,quantita_confusa,true,Usa $1 (valore di un premio) invece dei 4 premi totali: 'rewards' indica sia l'unita che il totale.
+large,B,test-590,passaggio_mancante,false,Omette i 100 invitati stessi (conta solo i 200 amici) e Alex.
+large,C,test-721,quantita_confusa,false,Usa 5 minuti per i giri senza braccia invece di 3 (i 2 minuti con braccia sono parte dei 5).
+large,C,test-100,quantita_confusa,false,Per il secondo amico parte da 60 (quarto amico) invece di 20 (primo amico).
+large,C,test-162,quantita_confusa,true,GIVEN price_increase_per_two_months = 20 tratta il 20% come 20 dollari: il nome non distingue percentuale e importo.
+large,C,test-1284,piano_sbagliato,false,Somma 1 e 2 invece di raddoppiare/triplicare il gruppo e non toglie i 5 iniziali.
+large,C,test-249,quantita_confusa,false,Moltiplica 13*5 per i biscotti della sorella martedi e non converte la differenza in calorie.
+large,C,test-1145,quantita_confusa,true,"Il nome bouquets_per_day viene ridefinito tre volte con significati diversi (bouquet, rapporto, girasoli)."
+large,C,test-383,passaggio_mancante,false,Calcola il profitto totale (18) e non lo divide per le 9 ore.
+large,C,test-84,piano_sbagliato,false,Non imposta l'equazione: sottrae 8 e poi aggiunge 8 tornando a 22.
+large,C,test-953,piano_sbagliato,false,Tratta orari come numeri decimali (2.38-2.15) e ignora le 8 ore di sonno.
+large,C,test-1045,piano_sbagliato,false,Imposta male le relazioni: divide 1840 per 3 invece di risolvere l'equazione.
+large,C,test-877,passaggio_mancante,false,Manca la sottrazione dei $2000 di profitto e calcola il prezzo di vendita come costo di acquisto.
+large,C,test-999,quantita_confusa,true,'adult_slices = 2*4 = 8' non distingue per adulto e totale adulti: quantita mescolate.
+large,C,test-1112,quantita_confusa,true,"Nomi come pierre_and_paul_total designano una sola quota (Pierre) e confondono Peter, Paul e James."
+large,C,test-114,quantita_confusa,true,"birds_in_jamal_photo contiene 300 che e la capacita del telefono di Brittany: nome vago, quantita confuse."
+large,C,test-33,piano_sbagliato,false,Sottrae 30 dal totale e poi lo riaggiunge invece di risolvere x+(x+30)=110.
+large,C,test-205,piano_sbagliato,false,Non scarta il punteggio piu basso e usa media su 6 test.
+large,C,test-1046,piano_sbagliato,false,"Non moltiplica per 24 le ore, usa 21*3/8 e ritorna a ore per pittore senza senso."
+large,C,test-322,quantita_confusa,true,"boxes_jam_has contiene matite per scatola (8): nome fuorviante, poi divide per 3 invece che per 8."
+large,C,test-1001,formato_rotto,false,Output non conforme che si ripete con GIVEN a catena senza arrivare a un risultato.
+large,C,test-954,quantita_confusa,false,Somma i 6 cucchiai regalati invece di sottrarli.
+large,D,test-182,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-541,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-144,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-518,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-1133,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-175,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-56,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-827,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-31,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-287,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-1300,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-1312,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-273,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-975,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-189,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-654,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-307,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-986,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-1081,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."
+large,D,test-91,nessun_ragionamento,false,"Risposta diretta senza ragionamento, numero errato."

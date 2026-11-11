@@ -1,0 +1,23 @@
+{
+ "equals": 735,
+ "fired": 706,
+ "agree": 704,
+ "disagree": 2,
+ "not_fired_examples": [
+  "Weng earns 12 / 60 = 0.2 per minute.\n50 minutes * 0.2 = 10.\nThe answer is 10.",
+  "Snowflake: 11.\nTruck: 11 + 9 = 20.\nRose: 20 − 13 = 7.\nTotal: 11 + 20 + 7 = 38.\n",
+  "ted ticket costs 40 - 2 = 38.\n2 * 38 = 76.\n10 tickets at 40 = 400.\nTotal: 400 + 76 = 476.\n",
+  "× 4 = 40.\nFrozen yoghurt cost 4 × 1 = 4.\nDifference: 40 − 4 = 36.\nThe answer is 36.",
+  "7 starfish * 5 arms/starfish = 35 arms\n35 arms + 14 arms = ",
+  "7 starfish * 5 arms/starfish = 35 arms\n35 arms + 14 arms = 49 arms\nThe answer is 49.",
+  "Dale's toast: 2 × £1 = £2.\nAndrew's toast: 1 × £1 =",
+  "Dale's toast: 2 × £1 = £2.\nAndrew's toast: 1 × £1 = £1.\nDale's eggs: 2 × £3 = £6",
+  "× £1 = £2.\nAndrew's toast: 1 × £1 = £1.\nDale's eggs: 2 × £3 = £6.\nAndrew's eggs: 2 × £3 = ",
+  " × £1 = £1.\nDale's eggs: 2 × £3 = £6.\nAndrew's eggs: 2 × £3 = £6.\nTotal: £2 + £1 + £6 + £6"
+ ],
+ "disagree_examples": [
+  "Last week = 111 texts\nThis week = (2 * 111) - 50 = 222 - 50 = 172 texts\n111 + 1",
+  "16 / 2 = 8 people.\n8 people eat 1 1/2 rolls each: 8 × 1 1/2 = 12 rolls.\n8 people eat 1/2 r"
+ ],
+ "fired_rate": 0.9605442176870749
+}

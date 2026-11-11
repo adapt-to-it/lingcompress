@@ -1,0 +1,21 @@
+# Tested with Python 3.11.9 on Windows 11, CUDA 12.4 (RTX 4070 SUPER 12 GB).
+# PyTorch with CUDA 12.4 wheels comes from the PyTorch index:
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+torch==2.6.0+cu124
+triton-windows==3.2.0.post21      # torch.compile on Windows (part 1)
+numpy==2.4.6
+pandas==3.1.1
+scipy==1.17.1
+matplotlib==3.11.2
+regex==2026.11.8
+tokenizers==0.23.3                # per-format BPE tokenizers (part 1)
+spacy==3.8.18                     # Italian stripper (part 1, v3)
+it_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/it_core_news_sm-3.8.0/it_core_news_sm-3.8.0-py3-none-any.whl
+transformers==5.22.2              # Qwen3 models (part 2)
+peft==0.21.2                      # LoRA (part 2)
+accelerate==1.15.0
+bitsandbytes==0.50.2              # QLoRA 4-bit for Qwen3-4B (part 2, v7)
+datasets==5.1.0                   # GSM8K download (part 2)
+huggingface_hub==2.4.0
+pytest==9.2.0

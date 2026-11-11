@@ -1,0 +1,16 @@
+format,vocab,vocab_eff,tok_bio,max_len
+italiano_pieno,char,72,230.7267,303
+italiano_pieno,512,512,83.5662,120
+italiano_pieno,1024,1024,66.59935,93
+italiano_pieno,2048,2048,57.5114,78
+italiano_pieno,4096,3814,50.7584,64
+telegrafico,char,70,170.3575,225
+telegrafico,512,512,63.4425,98
+telegrafico,1024,1024,49.56775,74
+telegrafico,2048,2048,40.82885,56
+telegrafico,4096,3781,34.28935,44
+interlingua_v1enc,char,70,137.83555,189
+interlingua_v1enc,512,512,57.6388,88
+interlingua_v1enc,1024,1024,45.51605,70
+interlingua_v1enc,2048,2048,36.92995,52
+interlingua_v1enc,4096,3811,30.28935,40

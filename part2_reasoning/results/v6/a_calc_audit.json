@@ -1,0 +1,22 @@
+{
+ "equals": 733,
+ "fired": 671,
+ "agree": 669,
+ "disagree": 2,
+ "not_fired_examples": [
+  "stamps is 11 + 9 = 20.\nThe number of rose stamps is 20 − 13 = 7.\nBella bought 11 + 20 + 7 ",
+  "e total number of snakes eaten: 5 snakes/jaguar * 6 jaguars = 30 snakes.\nThen find the tot",
+  "al number of birds eaten per day: 30 snakes * 3 birds/snake = 90 birds.\nThen multiply the ",
+  "number of beetles eaten per day: 90 birds * 12 beetles/bird = 1080 beetles.\nThe answer is ",
+  "Noah earned $60 per large painting times 8 large paintings = $480 for the large paintings",
+  "s.\nHe earned $30 per small painting times 4 small paintings = $120 for the small paintings",
+  "80 + $120 = $600.\nSo, his sales this month are $600 times 2 = $1200.\nThe answer is 1200.",
+  " of the frozen yoghurt is 4 × $1 = $4.\nCaleb spent $40 − $4 = $36 more on ice cream than o",
+  "There are 60 students * 2/3 = 40 students who have a $6 da",
+  "e a $6 daily allowance.\nThere are 60 students - 40 students = 20 students who have a $4 da"
+ ],
+ "disagree_examples": [
+  "Last week = 111 texts\nThis week = (2 * 111) - 50 = 222 - 50 = 172 texts\n111 + 1",
+  "/ 2 = 8 people.\n8 people eat 1 1/2 rolls each, so 8 x 1 1/2 = 12 dinner rolls are eaten.\n8"
+ ]
+}

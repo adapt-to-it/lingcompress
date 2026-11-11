@@ -1,0 +1,31 @@
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.codegraph/
+.env
+.env.*
+
+# Regenerable data, checkpoints and adapters
+part1_memorization/data/
+part1_memorization/runs/
+part2_reasoning/data/gsm8k/
+part2_reasoning/runs/
+part2_reasoning/tools/
+*.pt
+*.safetensors
+*.bin
+*.gguf
+*.npz
+
+# Logs
+*.log
+
+# LaTeX build files
+paper/*.aux
+paper/*.out
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls

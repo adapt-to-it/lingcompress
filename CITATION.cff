@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Compress the Prose, Not the Language: Linguistic Redundancy in Memorization and Reasoning of Small Transformers"
+type: software
+authors:
+  - given-names: Marco
+    family-names: "SURNAME"          # placeholder
+    orcid: "https://orcid.org/0000-0000-0000-0000"   # placeholder
+    affiliation: "Independent researcher"
+date-released: "2026-11-11"
+version: "1.0.0"
+license: MIT
+doi: "10.5281/zenodo.XXXXXXX"        # placeholder
+repository-code: "https://github.com/USERNAME/lingcompress"   # placeholder
+url: "https://github.com/USERNAME/lingcompress"              # placeholder
+keywords:
+  - linguistic redundancy
+  - compression
+  - memorization
+  - chain-of-thought
+  - GSM8K
+  - LoRA
+preferred-citation:
+  type: article
+  title: "Compress the Prose, Not the Language: Linguistic Redundancy in Memorization and Reasoning of Small Transformers"
+  authors:
+    - given-names: Marco
+      family-names: "SURNAME"        # placeholder
+  year: 2026
+  month: 11
+  doi: "10.5281/zenodo.XXXXXXX"      # placeholder

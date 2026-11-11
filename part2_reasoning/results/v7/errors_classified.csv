@@ -1,0 +1,41 @@
+model,cond,label,id,category,ambiguity,note
+large,10,A1+calc,test-1244,quantita_confusa,false,Ha calcolato il 70% di 70 invece che del totale di 110 domande.
+large,10,A1+calc,test-1183,piano_sbagliato,false,"Ha frainteso la storia delle mele, sommando i raccolti senza togliere quelle tenute in tasca o lanciate."
+large,10,A1+calc,test-1130,passaggio_mancante,false,Ha dimenticato il peso delle 25 scatole (200 once) da sommare a quello dei pastelli.
+large,10,A1+calc,test-2,quantita_confusa,false,Ha applicato il 150% alle riparazioni (50000) invece che al prezzo della casa (80000).
+large,10,A1+calc,test-1094,passaggio_mancante,false,"Non ha sottratto la bibita agitata presa dal fratello, usando 3 agitate su 6 invece di 2 su 8."
+large,10,A1+calc,test-926,quantita_confusa,false,Ha usato 2*2 per il popcorn (prezzo della caramella) invece di 2*8 e ha ignorato il costo dei film.
+large,10,A1+calc,test-613,altro,false,Ha assunto marzo di 30 giorni invece di 31.
+large,10,A1+calc,test-450,piano_sbagliato,false,"Ha sottratto i prezzi in sequenza sbagliata, sottraendo il risparmio dal costo senza usare il biglietto da 12 dollari."
+large,10,A1+calc,test-1294,piano_sbagliato,false,Ha applicato lo sconto del 50% a entrambe le magliette invece che solo alla seconda.
+large,10,A1+calc,test-606,piano_sbagliato,false,Ha moltiplicato per 2 invece di dividere le miglia in segmenti da 2 e ha confuso mesi e anni.
+large,10,A1+calc,test-1235,aritmetico,false,Ha convertito 0.6 in percentuale scrivendo 0.6% invece di 60%.
+large,10,A1+calc,test-122,piano_sbagliato,false,Ha interpretato 'due ore in meno ciascuno' come riduzione a cascata di 2 ore ogni giorno.
+large,10,A1+calc,test-364,quantita_confusa,false,Ha sottratto anche le 5 ragazze assenti dal numero dei maschi.
+large,10,A1+calc,test-1038,quantita_confusa,false,Ha usato il prestito (50000) invece dello stipendio (25000) per calcolare il reddito triplicato; il gold 4 non coincide con la soluzione ufficiale (6).
+large,10,A1+calc,test-416,piano_sbagliato,false,"Ha moltiplicato le teste per 2 invece di impostare il sistema, ottenendo un risultato negativo."
+large,10,A1+calc,test-443,piano_sbagliato,false,Ha calcolato il distacco nella gara invece del tempo di corsa di James.
+large,10,A1+calc,test-255,altro,false,"Il testo dice 'ten stalls' e poi 'twenty stalls': ha diviso per 20 invece che per 10, domanda incoerente."
+large,10,A1+calc,test-1005,piano_sbagliato,false,Ha moltiplicato 4*12 senza il numero di femmine e poi sommato 30 femmine come se fossero nascite.
+large,10,A1+calc,test-855,piano_sbagliato,false,"Ha impostato male le relazioni di età, rendendo il fratello più vecchio solo di 2 anni."
+large,10,A1+calc,test-162,quantita_confusa,false,Ha usato 6 mesi invece di 2 mesi come intervallo tra gli aumenti.
+large,12,A2+calc,test-143,quantita_confusa,false,Ha incluso anche il latte tra gli articoli non alimentari tassati.
+large,12,A2+calc,test-514,quantita_confusa,true,Ha trovato il costo del lotto (x) e lo ha dato come risposta invece di 3x per la casa.
+large,12,A2+calc,test-832,aritmetico,true,Ha scritto 30 + 40% = 30.4 invece di 30 + 40% di 30 = 42.
+large,12,A2+calc,test-812,quantita_confusa,true,Ha sottratto 4 (fiori persi) invece di 22 (petali persi).
+large,12,A2+calc,test-182,passaggio_mancante,false,Ha dimenticato di sottrarre i due anni dall'età di Jan prima di dimezzarla.
+large,12,A2+calc,test-495,piano_sbagliato,true,Ha calcolato 480 minuti al giorno invece di 5 minuti per ogni ora lavorata.
+large,12,A2+calc,test-933,piano_sbagliato,true,Dopo aver già ottenuto 15 tavoli necessari ha continuato con divisioni senza senso fino a 8.
+large,12,A2+calc,test-473,aritmetico,false,Ha scritto 0.1 * 100% = 0.1% invece di 10%.
+large,12,A2+calc,test-1159,quantita_confusa,true,"Ha etichettato 'Purple with bows' con tutti i 6 viola, senza il terzo, e diviso per 6 invece che per i 4 con fiocco."
+large,12,A2+calc,test-203,piano_sbagliato,true,Ha calcolato 7-2 per i sandwich invece di 7 giorni * 2 fette.
+large,12,A2+calc,test-931,piano_sbagliato,false,Ha impostato male le equazioni: Peter = 2*Paul invece di Paul + John.
+large,12,A2+calc,test-532,quantita_confusa,true,Ha raddoppiato l'età attuale (22) invece di quella tra 8 anni (30).
+large,12,A2+calc,test-919,quantita_confusa,true,Ha calcolato 30*0.5 invece di 300 lecca-lecca * 0.5 per il costo.
+large,12,A2+calc,test-331,passaggio_mancante,false,Ha dimenticato la tassa del 10% sul reddito netto del lavoro B.
+large,12,A2+calc,test-1317,piano_sbagliato,false,Ha sbagliato le gambe delle mucche (2 invece di 4) ottenendo un'equazione senza x.
+large,12,A2+calc,test-1000,quantita_confusa,true,Ha usato 10 appuntamenti invece di 9 pazienti ricoverati per il tempo dei giri.
+large,12,A2+calc,test-976,quantita_confusa,false,Ha sottratto 4 dal valore domenicale (15 meno 4) invece di applicarlo al sabato e ha confuso i due giorni.
+large,12,A2+calc,test-467,passaggio_mancante,false,Ha dimenticato di sommare il piumone (1 pezzo) per camera.
+large,12,A2+calc,test-749,quantita_confusa,true,Ha sottratto 6 gruppi invece dei 9 gruppi formati (54/6).
+large,12,A2+calc,test-157,passaggio_mancante,true,"Ha calcolato 15*100 invece di 15*200, dimenticando andata e ritorno, e ha omesso la prima corsa di Kelly."
