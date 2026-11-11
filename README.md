@@ -3,7 +3,7 @@
 **Linguistic Redundancy in Memorization and Reasoning of Small Transformers**
 
 Code, generated data, per-problem outputs and reports for the paper
-[`paper/compress_the_prose.pdf`](paper/compress_the_prose.pdf) (Marco, November 2026).
+[`paper/compress_the_prose.pdf`](paper/compress_the_prose.pdf) (Marco Abbattista, November 2026).
 
 ## Abstract
 
@@ -169,9 +169,9 @@ Per-problem outputs of every evaluation run are in `part2_reasoning/results/v*/o
 ## Citation
 
 ```bibtex
-@misc{marco2026compress,
+@misc{abbattista2026compress,
   title        = {Compress the Prose, Not the Language: Linguistic Redundancy in Memorization and Reasoning of Small Transformers},
-  author       = {COGNOME, Marco},
+  author       = {Abbattista, Marco},
   note         = {ORCID: 0009-0004-2917-4466},
   year         = {2026},
   month        = nov,
